@@ -1,7 +1,10 @@
 EXPERIMENT 2
 INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-
+
 NAME:VISHNU KM
+
 DEPARTMENT: AI ML
+
 REG NO:212223240185
 
 **AIM**:  To interface a Analog  input (angular displacement sensor POT) and scale the values up on change in the input.
@@ -97,9 +100,16 @@ void loop()
 }
 ```
 
+
+
 **
 **Simulation output:** 
 **
+
+
+![exp 2](https://github.com/vishnukayyala/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/151489368/60a170d9-99fa-4642-89a7-32acabaa4e54)
+
+![Screenshot 2024-02-22 112300](https://github.com/vishnukayyala/EXPERIMENT-NO--02-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-/assets/151489368/da7083eb-adfa-4bd3-96e9-3b254951b97a)
 
 
 [My image](username.github.com/repository/img/image.jpg)
