@@ -1,7 +1,8 @@
+ EXPERIMEMT : 2 
  INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-
-
-
-
+NAME : VISHNU KM
+DEPARTMENT : AI ML
+REG NO : 212223240185
 
 **AIM**:  To interface a Analog  input (angular displacement sensor POT) and scale the values up on change in the input.
 
@@ -67,16 +68,35 @@ CIRCUIT DIAGRAM
 
 
 **PROGRAM** 
- 
+```
+ int led=4;
+int sensorpot;
+void setup()
+{
+ pinMode(led, OUTPUT);
+  Serial.begin(9600);
+}
+void loop()
+{
+  sensorpot=analogRead(A0);
+  Serial.print("data=");
+  Serial.println(sensorpot);
+  delay(500);
+  if(sensorpot>500)
+  {
+    digitalWrite(led,HIGH);
+      delay(100);    
+    digitalWrite(led,LOW);
+      delay(100);
+  }
+  else
+  {
+    digitalWrite(led,LOW);
+    delay(100);
+  }
+}
 
-
-
-
-
-
-
-
-
+```
 **
 **Simulation output:** 
 **
